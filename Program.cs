@@ -36,7 +36,7 @@ namespace SydneyHotel
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(".................Welcome to Sydney Hotel...............");
+            Console.WriteLine("Welcome to Sydney Hotel");
             Console.Write("\nEnter no. of Customer: ");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\n--------------------------------------------------------------------\n");
@@ -82,7 +82,7 @@ namespace SydneyHotel
             Console.WriteLine("\n--------------------------------------------------------------------\n");
             Console.WriteLine($"The customer spending most is {maxrd.customerName} ${maxrd.totalPrice}");
             Console.WriteLine($"The customer spending least is {minrd.customerName} ${minrd.totalPrice}");
-            Console.WriteLine($"Press any ket to continue....");
+            Console.WriteLine($"Press any key to continue.");
             Console.ReadLine();
 
         }
